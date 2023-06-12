@@ -2,7 +2,9 @@
 
     <PropertyGroup>
         <IsPackable>true</IsPackable>
+        <TargetFrameworks>net6.0</TargetFrameworks>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <StartupObject>MyLeasing.Web.Program</StartupObject>
     </PropertyGroup>
 
     <ItemGroup>
